@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Montserrat:ital,wght@1,500&display=swap');
+
+* {
+    background-color: #22252d;
+}
+
+h1,
+.btn-choice {
+    color: white;
+    font-family: 'Fredoka One', sans-serif;
+}
+
+h1 {
+    font-family: 'Fredoka One', sans-serif;
+    text-align: center;
+    margin-right: 0;
+}
+
+.btn-choice {
+    border: 3px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+
+
+}
+
+.btn-choice:hover {
+    cursor: pointer;
+    background-color: #3e4352;
+}
+
+.question-containter,
+.answer-options {
+    display: flex;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.answer-options {
+    display: flex;
+    flex-direction: column;
+
+}
